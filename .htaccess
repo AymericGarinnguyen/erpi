@@ -1,0 +1,7 @@
+Options +FollowSymlinks
+RewriteEngine on
+RewriteBase /
+
+RewriteRule ^accueil$  /index.php [L]
+RewriteRule ^nos-competences$  /competences.php [L]
+RewriteRule ^nous-contacter$  /contact.php [L]
